@@ -5,7 +5,7 @@ RUN apt-get -y update && apt-get -y install mono-complete
 
 ADD dotNet/server.exe /usr/src/app/ 
 
-EXPOSE 5000
+EXPOSE 9090
 
 CMD ["mono", "/usr/src/app/server.exe"]
 
