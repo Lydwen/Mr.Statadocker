@@ -1,6 +1,6 @@
-sudo docker stop dotnet
-sudo docker rm dotnet
-sudo docker build -t stata/dotnet .
-echo ">>>>> [.Net image built with success]"
+# Build the container
+./build.sh
+
+# Run the container
 echo ""
 sudo docker run -it -p 9090:9090 --name dotnet stata/dotnet
