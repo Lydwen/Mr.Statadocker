@@ -7,4 +7,4 @@ cd ../j2e-dockers
 ./build.sh
 
 # Compose the whole mess
-docker-compose create
+sudo docker-compose create

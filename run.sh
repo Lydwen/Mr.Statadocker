@@ -2,4 +2,4 @@
 ./build.sh
 
 # Run each containers
-docker-compose up -d
+sudo docker-compose up -d

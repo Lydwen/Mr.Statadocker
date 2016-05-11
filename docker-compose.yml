@@ -3,7 +3,7 @@ version: "2"
 services:
   # .NET server
   dotnet:
-    container_name: "stata_dotnet"
+    container_name: "dotnet"
     image: stata/dotnet
     ports:
       - "9090:9090"
@@ -11,7 +11,7 @@ services:
 
   # j2e server
   j2e:
-    container_name: "stata_j2e"
+    container_name: "j2e"
     image: stata/j2e
     ports:
       - "8080:8080"
